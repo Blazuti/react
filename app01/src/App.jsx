@@ -1,9 +1,9 @@
 import React from "react";
 
-function app(){
+export default function app(){
   return(
     <>
+      <h1>Testando React</h1>
     </>
   )
 }
-export default app()
