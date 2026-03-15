@@ -1,4 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(218, 211, 211);
+    width: 100vw;
+    height: auto;
+}
+
 .titulo{
+    padding: 10px;
+    text-align: center;
     font-size: 3em;
     color: rgb(50, 50, 50)
+}
+
+.imagem{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+
+img{
+    
+    max-width: 100%;
+}
+
+p{
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
 }
