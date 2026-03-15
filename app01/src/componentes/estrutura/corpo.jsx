@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function body(){
     return(
         <main>
@@ -8,6 +9,7 @@ export default function body(){
                 <br/>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, omnis necessitatibus atque cupiditate voluptate possimus? Corrupti animi, adipisci nulla sed omnis inventore ab beatae error, asperiores voluptate deserunt? Quod, iure!
             </p>
+            
         </main>
     )
 }
