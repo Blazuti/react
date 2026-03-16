@@ -1,16 +1,18 @@
 import React,{useState} from "react";
-import Ledverde from "..imgs/ledVerde.png";
+import Ledverde from "../imgs/ledVerde.png";
 import Ledvermelho from "../imgs/ledVermelho.png";
 
 
-export default function seção02(){
-    const [liga, setLiga]=useState(true)
+export default function seção02(props){
+   
     return(
         <>
         
+        <img style={{width:'80px'}} src={props.liga?Ledverde:Ledvermelho} />
         <button onClick={()=>{
+            props.setLiga(!props.liga)?{Ledverde}:{Ledvermelho}
             
-        }}>Liga</button>
+        }}>{props.liga?'desligar':'ligar'}</button>
         </>
     )
 }

@@ -6,13 +6,15 @@ import Footer from "./componentes/estrutura/footer"
 import Seção02 from "./componentes/estrutura/seção02"
 
 export default function app(){
-  
+   const [liga, setLiga]=useState(false)
   return(
     <>
       <Header/>
       <Corpo/>
       <Seção/>
-      <Seção02/>
+      <Seção02
+      liga = {liga}
+      setLiga = {setLiga}/>
       <Footer/>
     </>
   )
